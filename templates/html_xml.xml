@@ -1,0 +1,30 @@
+<templateSet group="html/xml">
+  <template name="&lt;script" value="&lt;script type=&quot;text/javascript&quot;&gt;&#10;    $END$&#10;&lt;/script&gt;" description="define scrpt" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;scriptv" value="&lt;script type=&quot;text/javascript&quot;&gt;&#10;    $(function(){&#10;        new Vue({&#10;            el: &quot;#$EL$&quot;,&#10;            data: {&#10;               $END$&#10;            },&#10;            methods: {&#10;               &#10;            }&#10;        });&#10;    });&#10;&lt;/script&gt;" description="define script for vuejs" toReformat="false" toShortenFQNames="true">
+    <variable name="EL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;scriptj" value="&lt;script type=&quot;text/javascript&quot;&gt;&#10;    $(function(){&#10;        $END$&#10;    });&#10;&lt;/script&gt;" description="define script tag for jquery" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;scripts" value="&lt;script type=&quot;text/javascript&quot; src=&quot;$SRC$&quot;&gt;&lt;/script&gt;" description="define script with src" toReformat="false" toShortenFQNames="true">
+    <variable name="SRC" expression="concat(&quot;${contextPath}/&quot;, clipboard())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;links" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;${contextPath}/$HREF$&quot;/&gt;&#10;" description="define liink with src" toReformat="false" toShortenFQNames="true">
+    <variable name="HREF" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

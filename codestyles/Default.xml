@@ -1,0 +1,13 @@
+<code_scheme name="Default">
+  <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
+  <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
+  <option name="HTML_ATTRIBUTE_WRAP" value="0" />
+  <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
+  <codeStyleSettings language="HTML">
+    <option name="RIGHT_MARGIN" value="320" />
+    <option name="WRAP_ON_TYPING" value="0" />
+  </codeStyleSettings>
+  <codeStyleSettings language="JSP">
+    <option name="RIGHT_MARGIN" value="9999" />
+  </codeStyleSettings>
+</code_scheme>

@@ -1,0 +1,7 @@
+<templateSet group="1_custom">
+  <template name="returns" value="return handleExceptions(() -&gt; {&#10;    //check inputs&#10;    &#10;    return SUCCESS;&#10;});" description="define actionsupport exception handler" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

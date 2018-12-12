@@ -1,0 +1,10 @@
+<templateSet group="JSP">
+  <template name="&lt;svg" value="&lt;svg class=&quot;svg-icon svg-content&quot;&gt;&lt;title&gt;$TITLE$&lt;/title&gt;&lt;use xlink:href=&quot;${contextPath}/views/img/symbol-defs.svg#$ICON_ID$&quot;&gt;&lt;/use&gt;&lt;/svg&gt;" description="generate svg tag" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="Title" alwaysStopAt="true" />
+    <variable name="ICON_ID" expression="" defaultValue="flag" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>

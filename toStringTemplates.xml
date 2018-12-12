@@ -1,0 +1,13 @@
+<application>
+  <component name="ToStringTemplates">
+    <option name="defaultTempalteName" value="ToStringBuilder (Apache commons-lang)" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="ToStringBuilder + \n" />
+          <option name="template" value="public java.lang.String toString() {&#10;   return new org.apache.commons.lang3.builder.ToStringBuilder(this)&#10;#foreach ($member in $members)&#10;   .append(&quot;\n$member.name&quot;, $member.accessor)&#10;#end&#10;   .toString();&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
+  </component>
+</application>
