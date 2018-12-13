@@ -4,4 +4,11 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="returno" value="$CLAZZ$ $OBJ$ = new $CLAZZ$();&#10;$END$&#10;return $OBJ$;" description="define return with object" toReformat="false" toShortenFQNames="true">
+    <variable name="CLAZZ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OBJ" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
