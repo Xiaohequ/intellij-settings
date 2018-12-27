@@ -19,7 +19,8 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="//==" value="// ================= getter &amp; setter ================" description="" toReformat="false" toShortenFQNames="true">
+  <template name="//==" value="// ================= $NAME$ ================" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;getter &amp; setter&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
