@@ -3,17 +3,18 @@
     <extensionMap>
       <mapping pattern="V1_4_2__add_prod_contact" type="Native" />
       <mapping pattern="V1_5__add_table_prod_client_mapping_config" type="PLAIN_TEXT" />
+      <mapping pattern="V6__add_index_for_prod_point_adresse" type="PLAIN_TEXT" />
       <mapping pattern=".gitconfig" type="PLAIN_TEXT" />
       <mapping pattern="V1_2__insert_admin_droit" type="PLAIN_TEXT" />
       <mapping pattern="add-component" type="PLAIN_TEXT" />
       <mapping pattern="V1_4__add_prod_contact_and_add_missing_autoinc" type="PLAIN_TEXT" />
       <mapping pattern="flyway_dbmigration" type="PLAIN_TEXT" />
       <mapping pattern="readme" type="PLAIN_TEXT" />
-      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="AUTHORS" type="PLAIN_TEXT" />
       <mapping pattern="V1_4_1__add_prod_contact.sql" type="PLAIN_TEXT" />
       <mapping pattern="V1_0__init_migration" type="PLAIN_TEXT" />
       <mapping pattern="change_admin_utilisateur_password_length" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
