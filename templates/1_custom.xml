@@ -11,4 +11,10 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="singleton" value="// ================= singleton ======================&#10;private static final $CLAZZ$ instance = new $CLAZZ$();&#10;public static $CLAZZ$ getInstance(){ return instance; }&#10;private $CLAZZ$(){} // prevent instanciate outside&#10;&#10;// ================= class fields ===================&#10;$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="CLAZZ" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
