@@ -9,6 +9,7 @@
       <mapping pattern="V1_2__insert_admin_droit" type="PLAIN_TEXT" />
       <mapping pattern="add-component" type="PLAIN_TEXT" />
       <mapping pattern="V1_4__add_prod_contact_and_add_missing_autoinc" type="PLAIN_TEXT" />
+      <mapping pattern="V8__create_dotation_tables" type="PLAIN_TEXT" />
       <mapping pattern="flyway_dbmigration" type="PLAIN_TEXT" />
       <mapping pattern="readme" type="PLAIN_TEXT" />
       <mapping pattern="AUTHORS" type="PLAIN_TEXT" />

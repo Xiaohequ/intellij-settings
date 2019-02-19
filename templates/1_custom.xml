@@ -23,7 +23,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="JBuilder" value="//=================== Builder =======================&#10;public static class Builder extends JsonDTOBuilder&lt;$OUT$, $IN$&gt;{&#10;    @Override&#10;    public $OUT$ build($IN$ input) {&#10;        $OUT$ dto = new $OUT$();&#10;        $END$&#10;        return dto;&#10;    }&#10;&#10;    @Override&#10;    public $IN$ map($OUT$ jsonDTO) {&#10;        $IN$ bean = new $IN$();&#10;&#10;        return bean;&#10;    }&#10;}" description="define class extends JsonDTOBuilder" toReformat="false" toShortenFQNames="true">
+  <template name="JBuilder" value="//=================== Builder =======================&#10;public static class Builder extends JsonDTOBuilder&lt;$OUT$$END$, $IN$&gt;{&#10;    @Override&#10;    public $OUT$ build($IN$ input) {&#10;        $OUT$ dto = new $OUT$();&#10;        &#10;        return dto;&#10;    }&#10;&#10;    @Override&#10;    public $IN$ map($OUT$ jsonDTO) {&#10;        $IN$ bean = new $IN$();&#10;&#10;        return bean;&#10;    }&#10;}" description="define class extends JsonDTOBuilder" toReformat="false" toShortenFQNames="true">
     <variable name="OUT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
     <variable name="IN" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
