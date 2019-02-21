@@ -23,7 +23,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="JBuilder" value="//=================== Builder =======================&#10;public static class Builder extends JsonDTOBuilder&lt;$OUT$$END$, $IN$&gt;{&#10;    @Override&#10;    public $OUT$ build($IN$ input) {&#10;        $OUT$ dto = new $OUT$();&#10;        &#10;        return dto;&#10;    }&#10;&#10;    @Override&#10;    public $IN$ map($OUT$ jsonDTO) {&#10;        $IN$ bean = new $IN$();&#10;&#10;        return bean;&#10;    }&#10;}" description="define class extends JsonDTOBuilder" toReformat="false" toShortenFQNames="true">
+  <template name="JBuilderV2" value="//=================== Builder =======================&#10;public static class Builder extends JsonDTOBuilderV2&lt;$OUT$$END$, $IN$&gt;{&#10;    @Override&#10;    protected $IN$ getInputInstance() { return new $IN$(); }&#10;&#10;    @Override&#10;    protected $OUT$ getOutputInstance() { return new $OUT$(); }&#10;&#10;    @Override&#10;    protected void buildWithInstance($OUT$ outputInstance, $IN$ input) {&#10;&#10;    }&#10;&#10;    @Override&#10;    protected void mapWithInstance($IN$ bean, $OUT$ jsonDTO) {&#10;        &#10;    }&#10;}" description="define class extends JsonDTOBuilderV2" toReformat="false" toShortenFQNames="true">
     <variable name="OUT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
     <variable name="IN" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -63,6 +63,13 @@
     <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="JBuilder" value="//=================== Builder =======================&#10;public static class Builder extends JsonDTOBuilder&lt;$OUT$$END$, $IN$&gt;{&#10;    @Override&#10;    public $OUT$ build($IN$ input) {&#10;        $OUT$ dto = new $OUT$();&#10;&#10;        return dto;&#10;    }&#10;&#10;    @Override&#10;    public $IN$ map($OUT$ jsonDTO) {&#10;        $IN$ bean = new $IN$();&#10;        &#10;        return bean;&#10;    }&#10;}" description="define class extends JsonDTOBuilder" toReformat="false" toShortenFQNames="true">
+    <variable name="OUT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="IN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
 </templateSet>
