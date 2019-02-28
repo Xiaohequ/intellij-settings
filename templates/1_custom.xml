@@ -57,10 +57,10 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="beanset" value="bean.set$BEAN_PROPERTY$(new $CLASSS$());&#10;bean.get$BEAN_PROPERTY$().setId(jsonDTO.get$PROPERTY_OUT$());" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="BEAN_PROPERTY" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="CLASSS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+  <template name="beanset" value="if( bean.get$BEAN_PROPERTY$() == null &amp;&amp; jsonDTO.get$PROPERTY_OUT$() != null){&#10;    bean.set$BEAN_PROPERTY$(new $CLASSS$());&#10;    bean.get$BEAN_PROPERTY$().setId(jsonDTO.get$PROPERTY_OUT$());&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="BEAN_PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PROPERTY_OUT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASSS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
