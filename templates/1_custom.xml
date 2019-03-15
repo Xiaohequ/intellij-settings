@@ -72,7 +72,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="Builder" value="// ================= builder ================&#10;public static class Builder{&#10;    public $OUT$ build($CLASS$ bean){&#10;        $OUT$ out = new $OUT$();&#10;        $END$&#10;        return out;&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="Builder" value="// ================= builder ================&#10;public static class Builder{&#10;    public $OUT$ build($CLASS$ bean){&#10;        $OUT$ out = new $OUT$();&#10;        $END$&#10;        return out;&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="OUT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
     <context>
