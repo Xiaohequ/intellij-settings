@@ -12,6 +12,7 @@
       <mapping pattern="V8__create_dotation_tables" type="PLAIN_TEXT" />
       <mapping pattern="flyway_dbmigration" type="PLAIN_TEXT" />
       <mapping pattern="readme" type="PLAIN_TEXT" />
+      <mapping pattern="V13__add_sac_static_data" type="PLAIN_TEXT" />
       <mapping pattern="AUTHORS" type="PLAIN_TEXT" />
       <mapping pattern="V1_4_1__add_prod_contact.sql" type="PLAIN_TEXT" />
       <mapping pattern="V1_0__init_migration" type="PLAIN_TEXT" />
