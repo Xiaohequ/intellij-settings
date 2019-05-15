@@ -1,10 +1,4 @@
 <templateSet group="JavaScript">
-  <template name="fori" value="var tmp;&#10;for(var i = 0; i &lt; $ARRAY$.length; i++){&#10;    tmp = $ARRAY$[i];&#10;    $END$&#10;}" description="for loop" toReformat="false" toShortenFQNames="true">
-    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="log" value="console.log($message$);&#10;$END$" description="define log" toReformat="false" toShortenFQNames="true">
     <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

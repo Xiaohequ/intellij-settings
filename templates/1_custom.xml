@@ -79,4 +79,61 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="&lt;links" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;${contextPath}/$HREF$&quot;/&gt;&#10;" description="define liink with src" toReformat="false" toShortenFQNames="true">
+    <variable name="HREF" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;script" value="&lt;script type=&quot;text/javascript&quot;&gt;&#10;    $END$&#10;&lt;/script&gt;" description="define scrpt" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;scriptj" value="&lt;script type=&quot;text/javascript&quot;&gt;&#10;    $(function(){&#10;        $END$&#10;    });&#10;&lt;/script&gt;" description="define script tag for jquery" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;scripts" value="&lt;script type=&quot;text/javascript&quot; src=&quot;$SRC$&quot;&gt;&lt;/script&gt;" description="define script with src" toReformat="false" toShortenFQNames="true">
+    <variable name="SRC" expression="concat(&quot;${contextPath}/&quot;, clipboard())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;scriptv" value="&lt;script type=&quot;text/javascript&quot;&gt;&#10;    $(function(){&#10;        new Vue({&#10;            el: &quot;#$EL$&quot;,&#10;            data: {&#10;               $END$&#10;            },&#10;            methods: {&#10;               &#10;            }&#10;        });&#10;    });&#10;&lt;/script&gt;" description="define script for vuejs" toReformat="false" toShortenFQNames="true">
+    <variable name="EL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="/*" value="/* $TODAY$ created by XQU */" description="createby" toReformat="false" toShortenFQNames="true">
+    <variable name="TODAY" expression="date(dd/MM/yyyy)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fori" value="var tmp;&#10;for(var i = 0; i &lt; $ARRAY$.length; i++){&#10;    tmp = $ARRAY$[i];&#10;    $END$&#10;}" description="for loop" toReformat="false" toShortenFQNames="true">
+    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="action" value="&lt;action name=&quot;$action$&quot; class=&quot;$classRef$&quot; method=&quot;$methodName$Action&quot;&gt;&#10;    &lt;interceptor-ref name=&quot;communStack&quot;/&gt;&#10;    &lt;result name=&quot;success&quot;&gt;$jspPath$&lt;/result&gt;&#10;&lt;/action&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="classRef" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="methodName" expression="" defaultValue="camelCase(action)" alwaysStopAt="false" />
+    <variable name="jspPath" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="actionj" value="&lt;action name=&quot;$actionName$&quot; class=&quot;$classRef$&quot; method=&quot;$methodName$Json&quot;&gt;&#10;    &lt;interceptor-ref name=&quot;valid-user&quot;/&gt;&#10;    &lt;interceptor-ref name=&quot;json&quot;/&gt;&#10;    &lt;result name=&quot;success&quot; type=&quot;hjson&quot;&gt;&#10;        &lt;param name=&quot;excludeNullProperties&quot;&gt;true&lt;/param&gt;&#10;        &lt;param name=&quot;root&quot;&gt;jsonResult&lt;/param&gt;&#10;    &lt;/result&gt;&#10;&lt;/action&gt;" description="define an action type json" toReformat="false" toShortenFQNames="true">
+    <variable name="actionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="classRef" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="methodName" expression="" defaultValue="camelCase(actionName)" alwaysStopAt="false" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>

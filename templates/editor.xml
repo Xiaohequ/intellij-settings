@@ -1,8 +1,0 @@
-<templateSet group="editor">
-  <template name="/*" value="/* $TODAY$ created by XQU */" description="createby" toReformat="false" toShortenFQNames="true">
-    <variable name="TODAY" expression="date(dd/MM/yyyy)" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-</templateSet>
