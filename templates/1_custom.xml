@@ -136,4 +136,10 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="HHS" value="return HibernateSessionHelper.execute(session -&gt; {&#10;    session.createQuery(&quot;$END$&quot;);&#10;&#10;    FilterAndPaginationQueryCreator queryCreator = new FilterAndPaginationQueryCreator(session, $FORMBEAN$, &quot;&quot;,&#10;            new GeneralQueryCondition(&quot;&quot;, &quot;&quot;));&#10;    &#10;    return queryCreator.buildSearchResult(&quot;&quot;);&#10;});" description="generate code for return search result" toReformat="false" toShortenFQNames="true">
+    <variable name="FORMBEAN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
