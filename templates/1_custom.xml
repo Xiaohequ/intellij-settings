@@ -44,7 +44,10 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="HH" value="return HibernateSessionHelper.execute(session -&gt; {&#10;    return $END$&#10;});" description="define hibernate session statement" toReformat="false" toShortenFQNames="true">
+  <template name="HH" value="return HibernateSessionHelper.execute(session -&gt; {&#10;    return session.createQuery(&quot;$QUERY$&quot;, $CLAZZ$.class).setParameter(&quot;$P1$&quot;, $P1$).list();&#10;});" description="define hibernate session statement" toReformat="false" toShortenFQNames="true">
+    <variable name="QUERY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLAZZ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="P1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
