@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="V1_4_2__add_prod_contact" type="Native" />
       <mapping pattern="V58__add_data_hb_document_type" type="PLAIN_TEXT" />
+      <mapping pattern="doc" type="PLAIN_TEXT" />
       <mapping pattern="V17__add_new_dot_question_perso" type="PLAIN_TEXT" />
       <mapping pattern="V1_5__add_table_prod_client_mapping_config" type="PLAIN_TEXT" />
       <mapping pattern="V2__update_action_historique" type="PLAIN_TEXT" />
