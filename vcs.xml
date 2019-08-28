@@ -18,6 +18,10 @@
           <option name="url" value="https://Optae@bitbucket.org/Optae/infotri-j2ee.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Xiaohequ/deploy-plugin.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\codaepc305\workspace\" />
