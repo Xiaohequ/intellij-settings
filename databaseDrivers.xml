@@ -60,7 +60,7 @@
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
       <option name="auto-sync" value="false" />
     </driver>
-    <driver id="mysql">
+    <driver id="mysql" name="MySQL_Localhost">
       <artifact name="MySQL Connector/J" use="true" version="5.1.45" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
