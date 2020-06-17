@@ -19,14 +19,21 @@
       <path value="VCS Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Vcs.UpdateProject" is_action="true" action_type="1" position="1">
+    <group value="Vcs.Push" is_action="true" action_type="1" position="1">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="MainToolBarSettings" />
       <path value="VCS Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Git.Merge" is_action="true" action_type="1" position="2">
+    <group value="Vcs.UpdateProject" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="MainToolBarSettings" />
+      <path value="VCS Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Git.Merge" is_action="true" action_type="1" position="3">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="MainToolBarSettings" />
@@ -42,14 +49,14 @@
       <path value="GitRepositoryActions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Git.Stash" is_action="true" action_type="1" position="5">
+    <group value="Git.Stash" is_action="true" action_type="1" position="6">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="MainToolBarSettings" />
       <path value="VCS Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Git.Unstash" is_action="true" action_type="1" position="6">
+    <group value="Git.Unstash" is_action="true" action_type="1" position="7">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="MainToolBarSettings" />
