@@ -2,12 +2,13 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="V1_4_2__add_prod_contact" type="Native" />
+      <mapping pattern="V12__update_sac_inter_distribution" type="PLAIN_TEXT" />
       <mapping pattern="V58__add_data_hb_document_type" type="PLAIN_TEXT" />
       <mapping pattern="groups" type="PLAIN_TEXT" />
-      <mapping pattern="V12__update_sac_inter_distribution" type="PLAIN_TEXT" />
       <mapping pattern="V17__add_new_dot_question_perso" type="PLAIN_TEXT" />
       <mapping pattern="V1_5__add_table_prod_client_mapping_config" type="PLAIN_TEXT" />
       <mapping pattern="V2__update_action_historique" type="PLAIN_TEXT" />
+      <mapping pattern="mysql_geometry.txt" type="PLAIN_TEXT" />
       <mapping pattern="V6__add_index_for_prod_point_adresse" type="PLAIN_TEXT" />
       <mapping pattern=".gitconfig" type="PLAIN_TEXT" />
       <mapping pattern="V1_2__insert_admin_droit" type="PLAIN_TEXT" />
