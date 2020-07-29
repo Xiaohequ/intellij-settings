@@ -5,6 +5,7 @@
       <mapping pattern="V12__update_sac_inter_distribution" type="PLAIN_TEXT" />
       <mapping pattern="V58__add_data_hb_document_type" type="PLAIN_TEXT" />
       <mapping pattern="groups" type="PLAIN_TEXT" />
+      <mapping pattern="hibernate_spatial" type="PLAIN_TEXT" />
       <mapping pattern="V17__add_new_dot_question_perso" type="PLAIN_TEXT" />
       <mapping pattern="V1_5__add_table_prod_client_mapping_config" type="PLAIN_TEXT" />
       <mapping pattern="V2__update_action_historique" type="PLAIN_TEXT" />
