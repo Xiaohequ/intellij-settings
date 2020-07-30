@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="StartAntTaskWithDebugger" description="Start ant task with debugger server" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Users\codaepc305\workspace\contenant\bacs\hbmgen\debugAntTaskAsync.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/workspace/contenant/bacs/hbmgen" />
+    </exec>
+  </tool>
+</toolSet>
