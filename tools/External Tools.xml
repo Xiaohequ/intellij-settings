@@ -3,7 +3,7 @@
     <exec>
       <option name="COMMAND" value="C:\Users\codaepc305\workspace\contenant\bacs\hbmgen\debugAntTaskAsync.bat" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/workspace/contenant/bacs/hbmgen" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/codaepc305/workspace/contenant/bacs/hbmgen" />
     </exec>
   </tool>
 </toolSet>
