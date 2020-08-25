@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="HQL" injector-id="java">
+      <display-name>FilterAndPaginationQueryCreator.buildSearchResult (fr.codae.utils.database.hql)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("buildSearchResult").withParameters("org.hibernate.Session", "java.lang.String").definedInClass("fr.codae.utils.database.hql.FilterAndPaginationQueryCreator"))]]></place>
+    </injection>
+  </component>
+</application>
