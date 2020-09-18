@@ -40,15 +40,6 @@
       <path value="VCS Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool Windows" is_group="true" action_type="1" position="4">
-      <path value="root" />
-      <path value="Project View Popup Menu" />
-      <path value="VCS/LVCS Actions" />
-      <path value="Version Control Group" />
-      <path value="Repository" />
-      <path value="GitRepositoryActions" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="Git.Stash" is_action="true" action_type="1" position="6">
       <path value="root" />
       <path value="Main Toolbar" />
@@ -63,7 +54,7 @@
       <path value="VCS Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="CollapseAllRegions" is_action="true" action_type="1" position="14">
+    <group value="CollapseAllRegions" is_action="true" action_type="1" position="24">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
