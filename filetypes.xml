@@ -9,6 +9,7 @@
       <mapping pattern="hibernate_spatial" type="PLAIN_TEXT" />
       <mapping pattern="V17__add_new_dot_question_perso" type="PLAIN_TEXT" />
       <mapping pattern="ExempleActionSupport" type="PLAIN_TEXT" />
+      <mapping pattern="exempleDAO" type="PLAIN_TEXT" />
       <mapping pattern="V1_5__add_table_prod_client_mapping_config" type="PLAIN_TEXT" />
       <mapping pattern="V2__update_action_historique" type="PLAIN_TEXT" />
       <mapping pattern="ExempleDAO" type="PLAIN_TEXT" />
