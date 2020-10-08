@@ -1,7 +1,8 @@
 <application>
   <component name="LanguageInjectionConfiguration">
     <injection language="HQL" injector-id="java">
-      <display-name>FilterAndPaginationQueryCreator.buildSearchResult (com.trackoe.contenant.database.hql)</display-name>
+      <display-name>FilterAndPaginationQueryCreator (com.trackoe.contenant.database.hql)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("FilterAndPaginationQueryCreator").withParameters("com.trackoe.contenant.controlers.commun.dto.PaginationFilterBean", "java.lang.String", "com.trackoe.contenant.database.hql.QueryCondition...").definedInClass("com.trackoe.contenant.database.hql.FilterAndPaginationQueryCreator"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("buildSearchResult").withParameters("org.hibernate.Session", "java.lang.String").definedInClass("com.trackoe.contenant.database.hql.FilterAndPaginationQueryCreator"))]]></place>
     </injection>
     <injection language="HQL" injector-id="java">
