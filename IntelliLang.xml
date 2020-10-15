@@ -9,5 +9,9 @@
       <display-name>FilterAndPaginationQueryCreator.buildSearchResult (fr.codae.utils.database.hql)</display-name>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("buildSearchResult").withParameters("org.hibernate.Session", "java.lang.String").definedInClass("fr.codae.utils.database.hql.FilterAndPaginationQueryCreator"))]]></place>
     </injection>
+    <injection language="HQL" injector-id="java">
+      <display-name>FilterAndPaginationQueryCreatorV2.buildSearchResult (com.trackoe.contenant.database.hql)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("buildSearchResult").withParameters("org.hibernate.Session", "java.lang.String").definedInClass("com.trackoe.contenant.database.hql.FilterAndPaginationQueryCreatorV2"))]]></place>
+    </injection>
   </component>
 </application>
