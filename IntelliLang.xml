@@ -13,5 +13,9 @@
       <display-name>FilterAndPaginationQueryCreatorV2.buildSearchResult (com.trackoe.contenant.database.hql)</display-name>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("buildSearchResult").withParameters("org.hibernate.Session", "java.lang.String").definedInClass("com.trackoe.contenant.database.hql.FilterAndPaginationQueryCreatorV2"))]]></place>
     </injection>
+    <injection language="HQL" injector-id="java">
+      <display-name>HibernateSessionHelper.createQueryCreator (com.trackoe.contenant.database)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("createQueryCreator").withParameters("com.trackoe.contenant.controlers.commun.dto.PaginationFilterBean", "java.lang.String", "com.trackoe.contenant.database.hql.QueryCondition...").definedInClass("com.trackoe.contenant.database.HibernateSessionHelper"))]]></place>
+    </injection>
   </component>
 </application>
