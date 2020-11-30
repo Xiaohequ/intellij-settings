@@ -10,7 +10,8 @@
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("buildSearchResult").withParameters("org.hibernate.Session", "java.lang.String").definedInClass("fr.codae.utils.database.hql.FilterAndPaginationQueryCreator"))]]></place>
     </injection>
     <injection language="HQL" injector-id="java">
-      <display-name>FilterAndPaginationQueryCreatorV2.buildSearchResult (com.trackoe.contenant.database.hql)</display-name>
+      <display-name>FilterAndPaginationQueryCreatorV2 (com.trackoe.contenant.database.hql)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("FilterAndPaginationQueryCreatorV2").withParameters("com.trackoe.contenant.controlers.commun.dto.PaginationFilterBean", "java.lang.String", "com.trackoe.contenant.database.hql.QueryCondition...").definedInClass("com.trackoe.contenant.database.hql.FilterAndPaginationQueryCreatorV2"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("buildSearchResult").withParameters("org.hibernate.Session", "java.lang.String").definedInClass("com.trackoe.contenant.database.hql.FilterAndPaginationQueryCreatorV2"))]]></place>
     </injection>
     <injection language="HQL" injector-id="java">
