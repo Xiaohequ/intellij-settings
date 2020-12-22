@@ -2,37 +2,38 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="V1_4_2__add_prod_contact" type="Native" />
-      <mapping pattern="js_exemple" type="PLAIN_TEXT" />
-      <mapping pattern="V12__update_sac_inter_distribution" type="PLAIN_TEXT" />
-      <mapping pattern="V58__add_data_hb_document_type" type="PLAIN_TEXT" />
-      <mapping pattern="groups" type="PLAIN_TEXT" />
-      <mapping pattern="hibernate_spatial" type="PLAIN_TEXT" />
-      <mapping pattern="V17__add_new_dot_question_perso" type="PLAIN_TEXT" />
-      <mapping pattern="ExempleActionSupport" type="PLAIN_TEXT" />
-      <mapping pattern="exempleDAO" type="PLAIN_TEXT" />
-      <mapping pattern="V1_5__add_table_prod_client_mapping_config" type="PLAIN_TEXT" />
-      <mapping pattern="V2__update_action_historique" type="PLAIN_TEXT" />
-      <mapping pattern="ExempleDAO" type="PLAIN_TEXT" />
-      <mapping pattern="mysql_geometry.txt" type="PLAIN_TEXT" />
-      <mapping pattern="V6__add_index_for_prod_point_adresse" type="PLAIN_TEXT" />
-      <mapping pattern=".gitconfig" type="PLAIN_TEXT" />
-      <mapping pattern="V1_2__insert_admin_droit" type="PLAIN_TEXT" />
-      <mapping pattern="V47__new_fonctionnality_permission" type="PLAIN_TEXT" />
-      <mapping pattern="add-component" type="PLAIN_TEXT" />
-      <mapping pattern="V1_4__add_prod_contact_and_add_missing_autoinc" type="PLAIN_TEXT" />
-      <mapping pattern="V8__create_dotation_tables" type="PLAIN_TEXT" />
-      <mapping pattern="flyway_dbmigration" type="PLAIN_TEXT" />
-      <mapping pattern="readme" type="PLAIN_TEXT" />
-      <mapping pattern="V13__add_sac_static_data" type="PLAIN_TEXT" />
-      <mapping pattern="AUTHORS" type="PLAIN_TEXT" />
-      <mapping pattern="V1_4_1__add_prod_contact.sql" type="PLAIN_TEXT" />
-      <mapping pattern="doc" type="PLAIN_TEXT" />
-      <mapping pattern="V1_0__init_migration" type="PLAIN_TEXT" />
-      <mapping pattern="V10__add_sac_tables" type="PLAIN_TEXT" />
-      <mapping pattern="typeUtilisateur" type="PLAIN_TEXT" />
-      <mapping pattern="change_admin_utilisateur_password_length" type="PLAIN_TEXT" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
+      <mapping pattern="V2__update_action_historique" type="PLAIN_TEXT" />
+      <mapping pattern="change_admin_utilisateur_password_length" type="PLAIN_TEXT" />
+      <mapping pattern="doc" type="PLAIN_TEXT" />
+      <mapping pattern="groups" type="PLAIN_TEXT" />
+      <mapping pattern="V1_2__insert_admin_droit" type="PLAIN_TEXT" />
+      <mapping pattern="ExempleActionSupport" type="PLAIN_TEXT" />
+      <mapping pattern=".gitconfig" type="PLAIN_TEXT" />
+      <mapping pattern="V58__add_data_hb_document_type" type="PLAIN_TEXT" />
+      <mapping pattern="add-component" type="PLAIN_TEXT" />
+      <mapping pattern="create_db_for_test.sql" type="PLAIN_TEXT" />
+      <mapping pattern="V17__add_new_dot_question_perso" type="PLAIN_TEXT" />
+      <mapping pattern="exempleDAO" type="PLAIN_TEXT" />
+      <mapping pattern="js_exemple" type="PLAIN_TEXT" />
+      <mapping pattern="V1_4__add_prod_contact_and_add_missing_autoinc" type="PLAIN_TEXT" />
+      <mapping pattern="mysql_geometry.txt" type="PLAIN_TEXT" />
+      <mapping pattern="V10__add_sac_tables" type="PLAIN_TEXT" />
+      <mapping pattern="V8__create_dotation_tables" type="PLAIN_TEXT" />
+      <mapping pattern="V13__add_sac_static_data" type="PLAIN_TEXT" />
+      <mapping pattern="flyway_dbmigration" type="PLAIN_TEXT" />
+      <mapping pattern="V1_5__add_table_prod_client_mapping_config" type="PLAIN_TEXT" />
+      <mapping pattern="ExempleDAO" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="V1_4_1__add_prod_contact.sql" type="PLAIN_TEXT" />
+      <mapping pattern="AUTHORS" type="PLAIN_TEXT" />
+      <mapping pattern="V6__add_index_for_prod_point_adresse" type="PLAIN_TEXT" />
+      <mapping pattern="V47__new_fonctionnality_permission" type="PLAIN_TEXT" />
+      <mapping pattern="typeUtilisateur" type="PLAIN_TEXT" />
+      <mapping pattern="V12__update_sac_inter_distribution" type="PLAIN_TEXT" />
+      <mapping pattern="readme" type="PLAIN_TEXT" />
+      <mapping pattern="hibernate_spatial" type="PLAIN_TEXT" />
+      <mapping pattern="V1_0__init_migration" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
