@@ -18,6 +18,7 @@
       <mapping pattern="exempleDAO" type="PLAIN_TEXT" />
       <mapping pattern="js_exemple" type="PLAIN_TEXT" />
       <mapping pattern="V1_4__add_prod_contact_and_add_missing_autoinc" type="PLAIN_TEXT" />
+      <mapping pattern="Db_migration" type="PLAIN_TEXT" />
       <mapping pattern="mysql_geometry.txt" type="PLAIN_TEXT" />
       <mapping pattern="V10__add_sac_tables" type="PLAIN_TEXT" />
       <mapping pattern="V8__create_dotation_tables" type="PLAIN_TEXT" />
