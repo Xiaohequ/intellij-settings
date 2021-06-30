@@ -18,5 +18,9 @@
       <display-name>HibernateSessionHelper.createQueryCreator (com.trackoe.contenant.database)</display-name>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("createQueryCreator").withParameters("com.trackoe.contenant.controlers.commun.dto.PaginationFilterBean", "java.lang.String", "com.trackoe.contenant.database.hql.QueryCondition...").definedInClass("com.trackoe.contenant.database.HibernateSessionHelper"))]]></place>
     </injection>
+    <injection language="file-reference" injector-id="xml">
+      <display-name>script/@src</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("src")).withParent(xmlTag().withLocalName(string().equalTo("script")).withNamespace(string().matches("/custom-tags")))]]></place>
+    </injection>
   </component>
 </application>
