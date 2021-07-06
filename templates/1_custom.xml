@@ -157,7 +157,7 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="storer" value="&lt;interceptor-ref name=&quot;store&quot;&gt;&#10;    &lt;param name=&quot;operationMode&quot;&gt;RETRIEVE&lt;/param&gt;&#10;&lt;/interceptor-ref&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="storer" value="&lt;interceptor-ref name=&quot;store&quot;&gt;&#10;    &lt;param name=&quot;operationMode&quot;&gt;RETRIEVE&lt;/param&gt;&#10;&lt;/interceptor-ref&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
     </context>
