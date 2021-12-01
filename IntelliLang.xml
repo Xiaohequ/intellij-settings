@@ -18,6 +18,10 @@
       <display-name>HibernateSessionHelper.createQueryCreator (com.trackoe.contenant.database)</display-name>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("createQueryCreator").withParameters("com.trackoe.contenant.controlers.commun.dto.PaginationFilterBean", "java.lang.String", "com.trackoe.contenant.database.hql.QueryCondition...").definedInClass("com.trackoe.contenant.database.HibernateSessionHelper"))]]></place>
     </injection>
+    <injection language="HQL" injector-id="java">
+      <display-name>HqlQueryBuilder.setHql (com.trackoe.contenant.database.interne)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setHql").withParameters("java.lang.String").definedInClass("com.trackoe.contenant.database.interne.HqlQueryBuilder"))]]></place>
+    </injection>
     <injection language="file-reference" injector-id="xml">
       <display-name>script/@src</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("src")).withParent(xmlTag().withLocalName(string().equalTo("script")).withNamespace(string().matches("/custom-tags")))]]></place>
