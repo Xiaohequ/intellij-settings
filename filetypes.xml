@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="V1_4_2__add_prod_contact" type="Native" />
+      <mapping pattern="remove" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="V2__update_action_historique" type="PLAIN_TEXT" />
       <mapping pattern="OK" type="PLAIN_TEXT" />
