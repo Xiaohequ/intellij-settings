@@ -23,8 +23,9 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setHql").withParameters("java.lang.String").definedInClass("com.trackoe.contenant.database.interne.HqlQueryBuilder"))]]></place>
     </injection>
     <injection language="HQL" injector-id="java">
-      <display-name>QueryParameterApplyer.createParameterizedQuery (com.trackoe.contenant.database.hql)</display-name>
+      <display-name>QueryParameterApplyer (com.trackoe.contenant.database.hql)</display-name>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("createParameterizedQuery").withParameters("org.hibernate.Session", "java.lang.String", "java.lang.Class").definedInClass("com.trackoe.contenant.database.hql.QueryParameterApplyer"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("createParameterizedQuery").withParameters("org.hibernate.Session", "java.lang.String", "java.lang.Class", "java.lang.String").definedInClass("com.trackoe.contenant.database.hql.QueryParameterApplyer"))]]></place>
     </injection>
     <injection language="file-reference" injector-id="xml">
       <display-name>script/@src</display-name>
