@@ -162,4 +162,10 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="surl" value="&lt;s:url value=&quot;$SRC$&quot;/&gt;" description="ajouter tag &lt;s:url avec value" toReformat="false" toShortenFQNames="true">
+    <variable name="SRC" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
