@@ -1,9 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="src" />
-    <option name="defaultScopeName" value="src" />
+    <option name="customScope" value="swaggerapi" />
+    <option name="defaultScopeName" value="swaggerapi" />
+    <option name="wholeWordsOnly" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
-    <option name="SEARCH_SCOPE" value="src" />
+    <option name="SEARCH_SCOPE" value="swaggerapi" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
