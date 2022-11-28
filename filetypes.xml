@@ -4,6 +4,7 @@
       <mapping pattern="adresse_fact_usager_pro" type="Android Nine-Patch" />
       <mapping pattern="V1_4_2__add_prod_contact" type="Native" />
       <mapping pattern="ws_dotation_webservice_actionsupport_edit_intervention" type="PLAIN_TEXT" />
+      <mapping pattern="create_demande_json" type="PLAIN_TEXT" />
       <mapping pattern="remove" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="V2__update_action_historique" type="PLAIN_TEXT" />
