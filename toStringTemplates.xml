@@ -1,6 +1,6 @@
 <application>
   <component name="ToStringTemplates">
-    <option name="defaultTempalteName" value="StringBuilder (JDK 1.5)" />
+    <option name="defaultTempalteName" value="String concat (+)" />
     <option name="templates">
       <list>
         <TemplateResource>
