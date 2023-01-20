@@ -43,6 +43,7 @@
       <mapping pattern="KO" type="PLAIN_TEXT" />
       <mapping pattern="V12__update_sac_inter_distribution" type="PLAIN_TEXT" />
       <mapping pattern="readme" type="PLAIN_TEXT" />
+      <mapping pattern="test_bac_api_get_bac_list" type="PLAIN_TEXT" />
       <mapping pattern="ApiPortailUsager" type="PLAIN_TEXT" />
       <mapping pattern="hibernate_spatial" type="PLAIN_TEXT" />
       <mapping pattern="V1_0__init_migration" type="PLAIN_TEXT" />
