@@ -1,8 +1,9 @@
 <application>
   <component name="LanguageInjectionConfiguration">
     <injection language="HQL" injector-id="java">
-      <display-name>DatabaseTestSuite.hibernateQueryGet (com.trackoe.contenant.test)</display-name>
+      <display-name>DatabaseTestSuite (com.trackoe.contenant.test)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("hibernateQueryGet").withParameters("java.lang.String", "java.lang.Class", "java.lang.Object...").definedInClass("com.trackoe.contenant.test.DatabaseTestSuite"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("hibernateQueryGetList").withParameters("java.lang.String", "java.lang.Class", "java.lang.Object...").definedInClass("com.trackoe.contenant.test.DatabaseTestSuite"))]]></place>
     </injection>
     <injection language="HQL" injector-id="java">
       <display-name>FilterAndPaginationQueryCreator (com.trackoe.contenant.database.hql)</display-name>
