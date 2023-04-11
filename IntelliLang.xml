@@ -5,6 +5,10 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("hibernateQueryGet").withParameters("java.lang.String", "java.lang.Class", "java.lang.Object...").definedInClass("com.trackoe.contenant.test.DatabaseTestSuite"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("hibernateQueryGetList").withParameters("java.lang.String", "java.lang.Class", "java.lang.Object...").definedInClass("com.trackoe.contenant.test.DatabaseTestSuite"))]]></place>
     </injection>
+    <injection language="MySQL" injector-id="java">
+      <display-name>DatabaseTestSuite.runSqlOnDb (com.trackoe.contenant.test)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("runSqlOnDb").withParameters("java.lang.String").definedInClass("com.trackoe.contenant.test.DatabaseTestSuite"))]]></place>
+    </injection>
     <injection language="HQL" injector-id="java">
       <display-name>FilterAndPaginationQueryCreator (com.trackoe.contenant.database.hql)</display-name>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("FilterAndPaginationQueryCreator").withParameters("com.trackoe.contenant.controlers.commun.dto.PaginationFilterBean", "java.lang.String", "com.trackoe.contenant.database.hql.QueryCondition...").definedInClass("com.trackoe.contenant.database.hql.FilterAndPaginationQueryCreator"))]]></place>
