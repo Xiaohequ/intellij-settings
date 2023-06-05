@@ -26,6 +26,7 @@
     <injection language="HQL" injector-id="java">
       <display-name>HibernateSessionHelper (com.trackoe.contenant.database)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("simpleQueryList").withParameters("java.lang.String", "java.lang.Class", "java.lang.Object...").definedInClass("com.trackoe.contenant.database.HibernateSessionHelper"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("simpleQuerySingleOrNull").withParameters("java.lang.String", "java.lang.Class", "java.lang.Object...").definedInClass("com.trackoe.contenant.database.HibernateSessionHelper"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("createQueryCreator").withParameters("com.trackoe.contenant.controlers.commun.dto.PaginationFilterBean", "java.lang.String", "com.trackoe.contenant.database.hql.QueryCondition...").definedInClass("com.trackoe.contenant.database.HibernateSessionHelper"))]]></place>
     </injection>
     <injection language="HQL" injector-id="java">
