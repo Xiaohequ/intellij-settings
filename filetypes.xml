@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern="adresse_fact_usager_pro" type="Android Nine-Patch" />
       <mapping pattern="V1_4_2__add_prod_contact" type="Native" />
-      <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="ws_dotation_webservice_actionsupport_edit_intervention" type="PLAIN_TEXT" />
       <mapping pattern="create_demande_json" type="PLAIN_TEXT" />
       <mapping pattern="remove" type="PLAIN_TEXT" />
@@ -26,6 +25,7 @@
       <mapping pattern="js_exemple" type="PLAIN_TEXT" />
       <mapping pattern="V1_4__add_prod_contact_and_add_missing_autoinc" type="PLAIN_TEXT" />
       <mapping pattern="Swagger" type="PLAIN_TEXT" />
+      <mapping pattern="V6__add_index_for_prod_point_adresse" type="PLAIN_TEXT" />
       <mapping pattern="Db_migration" type="PLAIN_TEXT" />
       <mapping pattern="mysql_geometry.txt" type="PLAIN_TEXT" />
       <mapping pattern="V10__add_sac_tables" type="PLAIN_TEXT" />
@@ -38,7 +38,7 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="V1_4_1__add_prod_contact.sql" type="PLAIN_TEXT" />
       <mapping pattern="AUTHORS" type="PLAIN_TEXT" />
-      <mapping pattern="V6__add_index_for_prod_point_adresse" type="PLAIN_TEXT" />
+      <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="V47__new_fonctionnality_permission" type="PLAIN_TEXT" />
       <mapping pattern="typeUtilisateur" type="PLAIN_TEXT" />
       <mapping pattern="KO" type="PLAIN_TEXT" />
@@ -49,6 +49,7 @@
       <mapping pattern="hibernate_spatial" type="PLAIN_TEXT" />
       <mapping pattern="V1_0__init_migration" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping ext="xconf" type="XML" />
     </extensionMap>
   </component>
 </application>
