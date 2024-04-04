@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="web" />
-    <option name="defaultScopeName" value="web" />
+    <option name="customScope" value="src" />
+    <option name="defaultScopeName" value="src" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="regularExpressions" value="true" />
@@ -11,7 +11,7 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="web" />
+    <option name="SEARCH_SCOPE" value="src" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
